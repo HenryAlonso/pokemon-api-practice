@@ -22,7 +22,7 @@ const PokemonList = () => {
 
     return (
         <div>
-            <h1>Pokemon List With Axios</h1>
+            <h1>Pokemon List</h1>
             <ul>
                 {pokemonList.map((pokemon) => (
                     <li key={pokemon.name}>{pokemon.name}</li>
